@@ -1,0 +1,74 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.3;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border: 2px;
+  margin-left: 1px;
+  font-family: "Crimson Text";
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.line-1 {
+  height: 1px;
+  background: #555;
+}
+
+hr {
+  border: 0;
+  width: 96%;
+  color: #555;
+  height: 1px;
+}
+
+header {
+  line-height: .5;
+}
+
+body {
+  margin: 3px;
+}
+
+article {
+  color: #222;
+}
+
+article header p {
+  font-style: italic;
+  font-size: 1.125rem;
+  color: #222;
+}
+
+article header {
+  font-weight: normal;
+}
+
+article h1 {
+  font-style: normal;
+  font-size: 1.5rem;
+  font-family: serif;
+  font-weight: normal;
+  color: #222;
+}
+
+article p {
+  color: #222;
+}
+
+article ol {
+  color: #222;
+  padding-left: 1rem;
+}
+
+blockquote {
+  color: #999;
+  font-size: 1.125rem;
+  font-family: italic;
+}
+
+.quote {
+  font-size: 1em;
+}
