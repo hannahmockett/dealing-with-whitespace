@@ -19,10 +19,11 @@ html {
 
 header {
   border-bottom: 1px solid #555;
+  line-height: 10px;
 }
 
 body {
-  margin: 24px 2px;
+  margin: 35px 2px;
 }
 
 article {
