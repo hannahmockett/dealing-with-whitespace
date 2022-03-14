@@ -18,17 +18,16 @@ html {
 }
 
 header {
-  line-height: .45;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #555;
 }
 
 body {
-  margin: 30px 3px;
+  margin: 24px 2px;
 }
 
 article {
   color: #222;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #555;
 }
 
 article header p {
@@ -39,6 +38,10 @@ article header p {
 
 article header {
   font-weight: normal;
+}
+
+h1 + p {
+  line-height: 0;
 }
 
 article h1 {
